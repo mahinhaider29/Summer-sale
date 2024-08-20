@@ -13,6 +13,7 @@ document.getElementById('coupon-btn').addEventListener('click', function(){
     }  
   else{
     alert('Invalid Coupon Code'); 
+    couponField.value = '';
 }
     
 })
